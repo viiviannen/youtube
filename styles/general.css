@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+p {
+  margin: 0;
+}
+
+body {
+  font-family: Roboto, arial;
+  margin: 0;
+  padding-top: 80px; /* This is a hack to make the header not overlap the content */
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color: rgb(245, 245, 245);
+}
+
+@media (min-width: 1200.1px) {
+  body {
+    padding-left: 274px;
+  }
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: inherit;
+}
